@@ -114,6 +114,7 @@ git conig --list <br> <br>
 <strong>Delete recent commits:</strong> <br>
 git reset [unique_commit_id] <br>
 (View commit-id using => git log or, => git log --oneline) <br> <br>
+or, git reset --hard HEAD~1
 
 <strong>Edit the commit message of the recent commit:</strong> <br>
 git commit --amend -m "New commit message" <br> <br>
